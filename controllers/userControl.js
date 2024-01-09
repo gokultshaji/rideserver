@@ -1,5 +1,5 @@
 const { json } = require("express");
-const users = require("../Models/userModel");
+const users = require("../controllers/userControl");
 const jwt = require('jsonwebtoken');
 
 exports.register = async (req, res) => {
